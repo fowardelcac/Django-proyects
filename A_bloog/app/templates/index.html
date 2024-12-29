@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="Title">Quotes</h1>
+    {% for x in results %}
+
+    <div class="quote">
+        <h3>{{ x.title }}</h3>
+        <p>{{ x.content }}</p>
+        <span>{{ x.author }}</span>
+    </div>
+    {% endfor %}
+
+
+</body>
+
+</html>

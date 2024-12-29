@@ -1,0 +1,24 @@
+*{
+    background-color: beige;
+    font-family: sans-serif;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+#Title {
+    text-align: center;
+    align-items: center;
+}
+
+.quote {
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #333333;
+}
+
+span{
+    color: blue;
+    text-shadow: #333333;
+}
